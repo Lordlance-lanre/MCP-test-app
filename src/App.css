@@ -1,0 +1,46 @@
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-page);
+}
+
+.app-main-body {
+  display: flex;
+  flex: 1;
+  position: relative;
+}
+
+.app-content-area {
+  flex: 1;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Toast Notification */
+.app-toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: var(--primary-navy);
+  color: #FFFFFF;
+  padding: 12px 24px;
+  border-radius: 8px;
+  box-shadow: var(--shadow-popup);
+  font-size: 14px;
+  font-weight: 500;
+  z-index: 2000;
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

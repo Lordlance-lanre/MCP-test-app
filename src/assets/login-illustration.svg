@@ -1,0 +1,78 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="600" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EBFBFA" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#39CDCC"/>
+      <stop offset="100%" stop-color="#1FA7A6"/>
+    </linearGradient>
+    <linearGradient id="suitGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#213F7D"/>
+      <stop offset="100%" stop-color="#162D5A"/>
+    </linearGradient>
+    <filter id="shadow" x="140" y="70" width="340" height="300" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#213F7D" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background Glow & Shapes -->
+  <circle cx="300" cy="200" r="170" fill="url(#bgGrad)"/>
+  <circle cx="440" cy="120" r="28" fill="#39CDCC" fill-opacity="0.12"/>
+  <circle cx="170" cy="290" r="18" fill="#DF18FF" fill-opacity="0.12"/>
+  <circle cx="420" cy="290" r="12" fill="#E9B200" fill-opacity="0.15"/>
+
+  <!-- Decorative Floating Card (Dashboard Preview) -->
+  <g filter="url(#shadow)">
+    <rect x="160" y="80" width="280" height="220" rx="16" fill="#FFFFFF"/>
+    <rect x="180" y="100" width="80" height="8" rx="4" fill="#39CDCC"/>
+    <rect x="180" y="120" width="130" height="6" rx="3" fill="#E4E7EC"/>
+    <rect x="180" y="136" width="100" height="6" rx="3" fill="#F2F4F7"/>
+
+    <!-- Mini chart bars -->
+    <rect x="180" y="210" width="16" height="50" rx="4" fill="#213F7D" fill-opacity="0.2"/>
+    <rect x="206" y="180" width="16" height="80" rx="4" fill="#39CDCC"/>
+    <rect x="232" y="195" width="16" height="65" rx="4" fill="#DF18FF" fill-opacity="0.4"/>
+    <rect x="258" y="160" width="16" height="100" rx="4" fill="#39CDCC" fill-opacity="0.8"/>
+    <rect x="284" y="220" width="16" height="40" rx="4" fill="#E4E7EC"/>
+    <rect x="310" y="170" width="16" height="90" rx="4" fill="#213F7D"/>
+
+    <path d="M188 200 C 230 150, 270 200, 318 160" stroke="#39CDCC" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Illustration Character: Professional User Walking In -->
+  <!-- Legs -->
+  <path d="M335 270 L325 360 L310 365" stroke="#213F7D" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M350 270 L365 355 L380 362" stroke="#162D5A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Shoes -->
+  <ellipse cx="305" cy="366" rx="14" ry="6" fill="#162D5A"/>
+  <ellipse cx="385" cy="363" rx="14" ry="6" fill="#162D5A"/>
+
+  <!-- Torso & Suit Jacket -->
+  <path d="M320 180 L365 180 L370 275 L315 275 Z" fill="url(#suitGrad)"/>
+  <polygon points="340,180 348,220 334,220" fill="#FFFFFF"/>
+  <polygon points="340,215 344,235 338,235" fill="#39CDCC"/>
+
+  <!-- Left Arm holding Briefcase -->
+  <path d="M320 185 L300 240 L295 270" stroke="#213F7D" stroke-width="10" stroke-linecap="round"/>
+  <!-- Briefcase -->
+  <rect x="275" y="260" width="40" height="30" rx="4" fill="#39CDCC"/>
+  <rect x="288" y="254" width="14" height="6" rx="2" stroke="#39CDCC" stroke-width="3" fill="none"/>
+  <line x1="275" y1="274" x2="315" y2="274" stroke="#2EB5B4" stroke-width="2"/>
+
+  <!-- Right Arm with Smartphone -->
+  <path d="M365 185 L380 230 L395 210" stroke="#213F7D" stroke-width="10" stroke-linecap="round"/>
+  <rect x="390" y="195" width="16" height="28" rx="3" fill="#213F7D" transform="rotate(15 390 195)"/>
+  <rect x="392" y="198" width="12" height="22" rx="2" fill="#39CDCC" transform="rotate(15 390 195)"/>
+
+  <!-- Head & Hair -->
+  <circle cx="344" cy="150" r="16" fill="#C68962"/>
+  <path d="M330 148 C330 134, 358 132, 360 144 C352 142, 344 140, 330 148 Z" fill="#1A1A1A"/>
+  <circle cx="344" cy="149" r="2" fill="#333333"/>
+
+  <!-- Sparkles & Growth Dots -->
+  <path d="M460 180 L465 170 L470 180 L480 185 L470 190 L465 200 L460 190 L450 185 Z" fill="#39CDCC"/>
+  <circle cx="160" cy="160" r="6" fill="#39CDCC" fill-opacity="0.5"/>
+  <circle cx="480" cy="240" r="8" fill="#DF18FF" fill-opacity="0.3"/>
+</svg>
